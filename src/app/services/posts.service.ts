@@ -5,9 +5,9 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class PostsService {
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   getPosts(userId) {
-    return this.http.get('http://localhost:3000/posts?userId=' + userId);
+    return this.http.get(`http://localhost:3000/posts?userId=${userId}`);
   }
 }

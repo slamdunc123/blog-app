@@ -7,12 +7,12 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class PostsComponent implements OnInit {
 
-
+  // inputs from parent component - users.component.ts
   @Input() userId: number;
+  @Input() userName: string;
   @Input() posts: object;
-
-
-
+  @Input() showPosts: boolean;
+  @Input() showNoPosts: boolean;
 
   constructor() { }
 
