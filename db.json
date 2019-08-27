@@ -1,0 +1,71 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "userId": 2,
+      "id": 3,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "userId": 2,
+      "id": 4,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "userId": 3,
+      "id": 5,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "John",
+      "role": "Technical Lead"
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "role": "Project Manager"
+    },
+    {
+      "id": 3,
+      "name": "Dave",
+      "role": "Helpdesk"
+    },
+    {
+      "id": 4,
+      "name": "Dani",
+      "role": "Frontend Dev"
+    },
+    {
+      "id": 5,
+      "name": "Bret",
+      "role": "DBA"
+    }
+  ]
+}
